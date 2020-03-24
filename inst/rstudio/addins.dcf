@@ -1,0 +1,4 @@
+Name: Pleasant - Fold Code
+Description: Folds code in r notebook, as opposed to folding results.
+Binding: foldCode
+Interactive: false

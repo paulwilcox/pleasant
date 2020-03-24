@@ -3,8 +3,8 @@ Type: Package
 Title: Pleasant Development
 Version: 0.1.0
 Author: Paul Wilcox
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: Features to make the development experience more pleasant.  
+Maintainer: Paul Wilcox <t78t78@gmail.com>
+Description: Features to make the r development experience more pleasant.  
 License: MIT
 Encoding: UTF-8
 LazyData: true

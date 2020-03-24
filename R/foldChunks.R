@@ -1,4 +1,4 @@
-#' Fold code regions in an r notebook file
+#' Fold code chunks in an r notebook file.  Output remains visible.
 #'
 #' @param currentChunkOnly Fold the current chunk, or all of them?
 #' @examples
@@ -7,7 +7,7 @@
 #' foldCode() # fold all code regions
 #' }
 #' @export
-foldCode = function (
+foldChunks = function (
   currentChunkOnly = F
 ) {
 
@@ -60,6 +60,17 @@ foldCode = function (
     executeCommand('fold')
   }
 
+}
+
+#' Fold active code chunk in an r notebook file
+#'
+#' @examples
+#' \dontrun{
+#' foldCurrentCode() # fold only the chunk in the selection
+#' }
+#' @export
+foldCurrentChunk = function () {
+  foldCode(T)
 }
 
 isInRange = function(selection, comparison) {

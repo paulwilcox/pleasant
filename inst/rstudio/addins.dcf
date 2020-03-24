@@ -1,4 +1,9 @@
-Name: Pleasant - Fold Code
-Description: Folds code in r notebook, as opposed to folding results.
-Binding: foldCode
+Name: Fold Chunks
+Description: Fold chunks in r notebook.  Keeps output visible.
+Binding: foldChunks
+Interactive: false
+
+Name: Fold Current Chunk
+Description: Fold current chunk in r notebook.  Output remains visible.
+Binding: foldCurrentChunk
 Interactive: false

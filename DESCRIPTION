@@ -1,7 +1,7 @@
 Package: pleasant
 Type: Package
-Title: Pleasant Development
-Version: 0.1.0
+Title: Pleasant R Development
+Version: 0.2.0
 Author: Paul Wilcox
 Maintainer: Paul Wilcox <t78t78@gmail.com>
 Description: Features to make the r development experience more pleasant.  
